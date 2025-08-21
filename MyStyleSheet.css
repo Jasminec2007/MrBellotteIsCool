@@ -1,0 +1,42 @@
+body {
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12pt;
+  color: #000000;/*Dark Maroon for body text*/
+  text-align: center;/*Keeps paragraph left-aligned*/
+}
+h1 {
+  display: inline-block;   /*Shrinks width to fit text*/
+  background-color: Darkgrey;/*Background only around text*/
+  font-size: 32pt:
+  color: white;      /*white text*/
+  padding: 5px 10px:     /*space around the text*/
+  margin: 20px auto;     /*Center the h1 horizontally*/
+  text-align: center;   /*Center text inside the h1 box*/
+}
+p {
+   font-family;"Times new roman",Times,serif:
+   font-size: 12pt;    /*or 12px depending on requirement*/
+   color: black;
+   text-align: center;
+}
+p.shrt {
+	display: inline-block;  /*Shrink wdith to fit content*/
+	background-color: lightyellow;/*Optional: highlight it*/
+	width: 600px;    /*fixed width of container*/
+	padding: 5px 10px;    /*Optional spacing around text*/
+	margin: 10px 0;   /*vertical spacing*/
+	text-align: center;   
+}
+img {
+	display:block;   /*make the image act as a block element*/
+	float:left; /*aligns the image to the left*/
+	margin: 0 15px 15px 0;/*adds space around image: top right bottom left*/
+}
+.row {
+	display: flex;   /*enables horizontal layout*/
+	gap:2  20px;    /*optional space between paragraphs
+}
+li {
+	text-align: left;
+}
